@@ -1,0 +1,25 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "responseTimeout": 10000,
+    "requestTimeout": 10000,
+    "retries": {
+      "runMode": 2,
+      "openMode": 2
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/report/mochawesome-report",
+      "overwrite": false,
+      "html": true,
+      "json": false,
+      "timestamp": "mmddyyyy_HHMMss",
+      "cdn": true,
+      "charts": true
+    }
+}
+  
+
